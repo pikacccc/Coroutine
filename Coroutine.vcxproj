@@ -131,6 +131,11 @@
   <ItemGroup>
     <ClInclude Include="priority_queue.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coroutine.cpp" />
+    <ClCompile Include="hash_table.h" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

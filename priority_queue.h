@@ -51,7 +51,7 @@ inline bool priority_queue<T>::empty()
 template<typename T>
 inline void priority_queue<T>::push(const T& item)
 {
-	_data.push_back(item);
+	_data.push_back(item); 
 	_up(_data.size() - 1);
 }
 
